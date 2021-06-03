@@ -1,0 +1,18 @@
+.clear-container{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    background-image:linear-gradient(white,rgb(202, 202, 202));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.clear-container:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+
+.clear-text{
+    align-self: center;
+}

@@ -1,0 +1,39 @@
+.button-wrapper{
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white,rgb(202, 202, 202));
+    color:black;
+    border-radius: 5px;
+    border: silver 1px solid;
+    font-size: 30px;
+    
+    
+}
+
+.button-wrapper:hover{
+    background-image: none;
+    background-color: silver;
+    cursor: pointer;
+}
+
+.operator{
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(255, 166, 0),rgb(240, 156, 0));
+    color:white;
+    border-radius: 5px;
+    border: silver 1px solid;
+}
+
+.operator:hover{
+    background-image: none;
+    background-color: rgb(172, 97, 0);
+    cursor: pointer;
+    
+}
